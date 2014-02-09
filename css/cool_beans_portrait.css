@@ -1,0 +1,193 @@
+html {
+		-o-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+
+
+#res_720 {
+	position: absolute;
+	height: 1280px;
+	margin-left: -719px;
+	margin-top: -643px;
+	/*overflow: hidden;*/
+	top: 50%;
+	left: 50%;
+	width: 720px;
+
+}
+
+body {
+	overflow: hidden;
+
+
+}
+
+#background {
+	background-image:url('../img/background.jpg')!important;
+	background-repeat:no-repeat;
+	background-size: 100% auto;
+	height: 1280px;
+	width: 720px;
+  /*overflow: hidden;*/
+}
+
+img {
+	width: 290px;
+	margin-left: 411px;
+	margin-top: 20px;
+	position:relative;
+	z-index:2;
+
+}
+
+#header-banner {
+	background-color: #048579;
+	width: 100%;
+	height: 90px;
+	opacity: 0.8;
+	margin-top: 100px;
+	position: absolute;
+}
+
+#header-banner-bottom {
+	background-color: #048579;
+	width: 100%;
+	height: 90px;
+	opacity: 0.8;
+	margin-top: 646px;
+
+}
+
+
+#headers {
+	margin-top: -289px;
+	font-family: "KnewaveRegular";
+	color: white;
+	font-size: 65px;
+	margin-left: 100px;
+	text-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+}
+
+#header_1 {
+	margin-top: 92px;
+  margin-left: -23px;
+}
+
+#header_2 {
+	display: inline;
+	opacity: 0.9 !important;
+	position: absolute;
+	z-index: 4;
+	font-family: "KnewaveRegular";
+	color: white;
+	font-size: 65px;
+	text-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+	z-index: 3;
+	margin-left: 46px;
+	width: 400px;
+	margin-top: -88px;
+}
+
+#left_menu {
+	font-family: 'LeagueGothicRegular';
+	font-size: 46px;
+	color:white;
+	margin-left: 31px;
+	margin-left: -400px;
+	margin-top: 183px;
+		text-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+
+}
+
+#right_menu {
+	font-family: 'LeagueGothicRegular';
+	font-size: 46px;
+	color:white;
+	margin-left: 100px;
+
+
+}
+
+.right-item {
+		text-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+		position: relative;
+		z-index:3;
+		margin-left: -349px;
+
+}
+
+#left_menu_item_1,#left_menu_item_2,#left_menu_item_3,#left_menu_item_4,#left_menu_item_5,#left_menu_item_6,#left_menu_item_7,#right_menu_item_1,#right_menu_item_2,#right_menu_item_3,#right_menu_item_4,#right_menu_item_5,#right_menu_item_6,#right_menu_item_7  {
+	width: 313px;
+	padding-right: 0;
+}
+
+.right-price {
+	margin-left: -19px;
+			text-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+
+}
+
+#left_menu_item_1,#left_menu_item_2,#left_menu_item_3,#left_menu_item_4,#left_menu_item_5,#left_menu_item_6,#left_menu_item_7 {
+	margin-left: -400px;
+
+}
+.left-price {
+	margin-left: 737px;
+	z-index: 5;
+	margin-top: -454px;
+}
+
+#special {
+	font-family: "KnewaveRegular";
+	color: white;
+	font-size: 30px;
+	margin-left: 496px;
+	margin-top: -101px;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 300px;
+	-o-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+				text-shadow:  -moz-box-shadow:    7px 1px 5px rgba(69, 66, 66, 0.4);
+
+}
+
+#feature_item {
+	font-family: 'LeagueGothicRegular';
+	font-size: 37px !important;
+}
+
+#circle {
+	border-radius: 50%;
+	width: 235px;
+	height: 235px;
+	position: absolute;
+	background-color: #673090;
+	margin-top: -145px;
+	margin-left: 458px; 
+			text-shadow:  -moz-box-shadow:    7px 1px 5px rgba(69, 66, 66, 0.4);
+  -webkit-box-shadow: 7px 1px 5px rgba(69, 66, 66, 0.4);
+  box-shadow:         7px 1px 5px rgba(69, 66, 66, 0.4);
+
+	/* width and height can be anything, as long as they're equal */
+}
+
+@font-face {
+    font-family: 'KnewaveRegular';
+    src: url('../fonts/knewave_2.eot');
+    src: url('../fonts/knewave_2.eot') format('embedded-opentype'),
+         url('../fonts/knewave_2.woff') format('woff'),
+         url('../fonts/knewave_2.ttf') format('truetype'),
+         url('../fonts/knewave_2.svg#KnewaveRegular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('../fonts/leaguegothic-regular.eot');
+    src: url('../fonts/leaguegothic-regular.eot') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular.woff') format('woff'),
+         url('../fonts/leaguegothic-regular.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular.svg#LeagueGothicRegular') format('svg');
+}
